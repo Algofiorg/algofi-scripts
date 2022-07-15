@@ -10,7 +10,7 @@ This repo is undergoing continuous development.
 `pip3 install -r requirements.txt`
 
 ## Generate health ratio report + save to disk
-`python3 run_liquidate_report_from_state.py --health_ratio_threshold 0.85 --borrow_threshold 1.0 --html_path /path/to/file`
+`python3 run_liquidate_report_from_state.py --health_ratio_threshold 0.85 --borrow_threshold 1.0 --html_fpath /path/to/file`
 
 ## Generate health ratio report + email
 `python3 run_liquidate_report_from_state.py --health_ratio_threshold 0.25 --borrow_threshold 0.1 --email email@email.com`
